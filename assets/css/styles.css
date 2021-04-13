@@ -51,15 +51,16 @@ html{
 }
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
-	background-image: linear-gradient(160deg, rgba(0, 0, 0, 0), rgba(35, 35, 35, 0.53), rgba(0, 80, 150, 0.40)),
-    url('test.png');
-  background-size: 100%;
+	background-image: url('test2x.jpg');
+	background-size: 100%;
     background-repeat: no-repeat;
-  --first-color-send: rgba(29,29,35,0.75);
-  --title-color: #F3F1F1;
-  --text-color: #D1C7C8;
-  --body-color: #0f0f0f;
-  --container-color: #302728;
+	background-color: var(--body-color);
+	color: var(--title-color);
+	--title-color: #161212;
+	--text-color: #161212;
+	background-color: var(--body-color);
+	--body-color: #FFF;
+	--first-color-send: rgba(45,94,103,0.85);
 }
 /*========== Button Dark/Light ==========*/
 .change-theme{
@@ -72,15 +73,20 @@ body.dark-theme{
   cursor: pointer;
 }
 body{
-	background-image: url('test2x.jpg');
+	background-image: linear-gradient(160deg, rgba(0, 0, 0, 0), rgba(35, 35, 35, 0.53), rgba(0, 80, 150, 0.40)),
+    url('test.png');
+	--body-color: #0f0f0f;
 	background-size: 100%;
     background-repeat: no-repeat;
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
   color: var(--text-color);
+  background-color: var(--body-color);
+  --title-color: #F3F1F1;
+  --text-color: #D1C7C8;
   line-height: 1.6;
+  --first-color-send: rgba(29,29,35,0.75);
 }
 h2,h3,ul,p{
   margin: 0;

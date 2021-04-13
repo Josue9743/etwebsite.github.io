@@ -483,7 +483,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 @property --num {
 	 syntax: "<integer>";
 	 initial-value: 2500;
-	 inherits: false;
+	 inherits: true;
 }
  count {
 	 animation: counter 5s alternate ease-in-out;
@@ -503,9 +503,6 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 		 --num: 2500;
 	}
 }
-
-
-
 /*========== Loader ==========*/
 /* Absolute Center Spinner */
 .loading {

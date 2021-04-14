@@ -872,9 +872,8 @@ margin-bottom:0px;
 }
 .home__img iframe {
     position: absolute;
-    top: 2px;
+    top: 0;
     left: 0;
-	bottom: 2px;
     width: 100%;
     height: 85%;
 }

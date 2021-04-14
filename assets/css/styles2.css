@@ -297,6 +297,12 @@ img{
     content: '';
 }
 
+.home__img2{
+  width: 280px;
+  justify-self: center;
+  animation: pulse 2s infinite;
+}
+
 .home__title{
   font-size: var(--biggest-font-size);
   font-weight: var(--font-bold);

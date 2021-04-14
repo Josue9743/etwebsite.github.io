@@ -285,8 +285,6 @@ img{
 
 .home__img iframe {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
 }
@@ -295,12 +293,6 @@ img{
     padding-top: 56.25%;
     display: block;
     content: '';
-}
-
-.home__img2{
-  width: 280px;
-  justify-self: center;
-  animation: pulse 2s infinite;
 }
 
 .home__title{
@@ -862,13 +854,6 @@ margin-bottom:0px;
     padding: 2rem;
     border-radius: 1.5rem;
   }
-}
-
-@media only screen and (min-width: 766px) and (max-width: 770px){
-.home__img iframe {
-    width: 100%;
-	height: 150px;
-}
 }
 
 @media screen and (min-width: 968px){
